@@ -16,6 +16,7 @@ a_set: Set[int] = {1, 2, 3}
 
 # Tuples can be heterogeneous
 a_tuple: Tuple[int, str, bool] = (1, 'foo', True)
+another_tuple: Tuple[int, ...] = (1, 2, 3, 4)
 
 # Dictionaries need types for keys and values
 a_dict: Dict[str, float] = {'one': 1.0, 'two': 2.0}
