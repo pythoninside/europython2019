@@ -1,7 +1,6 @@
 # Keep Those Ducks in (Type) Check!
 ## How I Learned to Stop Worrying and Love the Type Checker
-#### _Francesco Pierfederici_
-#### _[Python Inside](https://pythoninside.com)_
+#### _Francesco Pierfederici ([Python Inside](https://pythoninside.com))_
 
 PEP 484 (building upon PEP 3107) introduced support for type hints. Type hints 
 allow, among other things, third-party tools to check Python code for possible 
