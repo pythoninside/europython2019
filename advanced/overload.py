@@ -16,7 +16,7 @@ class User:
         self._id = user_id
 
     @classmethod
-    def mkuser(cls, user_id: int):
+    def mkuser(cls, user_id: int) -> 'User':
         return User(user_id)
 
 
