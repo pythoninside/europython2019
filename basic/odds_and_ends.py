@@ -10,7 +10,7 @@ def irange(__n: int) -> Iterator[int]:
         i += 1
 
 
-print(list(irange(n=10)))     # mypy error
+print(list(irange(__n=10)))     # mypy error
 
 
 # Convenience shorthand for *args and **kwargs
